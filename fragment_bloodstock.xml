@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_createdonor">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/ib_back"
+                android:src="@drawable/back"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_blood"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Blood stock"
+                android:textColor="@color/merah"
+                android:textSize="24dp" />
+
+            <ImageButton
+                android:id="@+id/pmi_kota_bekasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_blood"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="25dp"
+                android:src="@drawable/pmikotabekasi" />
+
+            <ImageButton
+                android:id="@+id/pmi_metmall_bekasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pmi_kota_bekasi"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="55dp"
+                android:src="@drawable/pmimetmallbekasi" />
+
+            <ImageButton
+                android:id="@+id/pmi_kab_bekasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pmi_metmall_bekasi"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/pmikabbekasi" />
+
+            <ImageButton
+                android:id="@+id/pmi_kota_jaksel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pmi_kab_bekasi"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/pmikotajaksel" />
+
+            <ImageButton
+                android:id="@+id/pmi_kota_bekasi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pmi_kota_jaksel"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/pmikotabekasi" />
+
+            <ImageButton
+                android:id="@+id/pmi_metmall_bekasi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pmi_kota_bekasi2"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="55dp"
+                android:src="@drawable/pmimetmallbekasi" />
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

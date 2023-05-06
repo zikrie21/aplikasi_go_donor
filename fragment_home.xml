@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/ib_back"
+                android:src="@drawable/back"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_home"
+                android:gravity="center"
+                android:textSize="26dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/merah"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Home" />
+
+            <ImageButton
+                android:id="@+id/iv_home"
+                android:src="@drawable/headline"
+                android:layout_below="@+id/tv_home"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:id="@+id/create_ib"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/iv_home"
+                android:src="@drawable/crtbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageButton
+                android:id="@+id/find_ib"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/create_ib"
+                android:src="@drawable/findbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageButton
+                android:id="@+id/blood_ib"
+                android:layout_marginTop="190dp"
+                android:layout_below="@+id/iv_home"
+                android:src="@drawable/bloodstockbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageButton
+                android:id="@+id/news_ib"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/blood_ib"
+                android:src="@drawable/newsbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</FrameLayout>

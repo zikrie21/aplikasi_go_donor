@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_createdonor">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/ib_back"
+                android:src="@drawable/back"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_create"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Create Donor Request"
+                android:textColor="@color/merah"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tv_nama"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="73dp"
+                android:gravity="center"
+                android:layout_below="@+id/tv_create"
+                android:text="Nama Pasien"
+                android:textColor="@color/merah"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/nama2"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tv_nama"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="71dp"
+                android:background="@drawable/garis_button"
+                android:hint="Nama Lengkap"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_donor"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="73dp"
+                android:layout_below="@+id/nama2"
+                android:gravity="center"
+                android:text="Jumlah Donor"
+                android:textColor="@color/merah"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/jml_donor"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tv_donor"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="71dp"
+                android:background="@drawable/garis_button"
+                android:hint="12"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_jnsdonor"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="73dp"
+                android:gravity="center"
+                android:layout_below="@+id/jml_donor"
+                android:text="Jenis Donor"
+                android:textColor="@color/merah"
+                android:textSize="14dp" />
+
+            <ImageButton
+                android:id="@+id/ib_darahb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_jnsdonor"
+                android:layout_marginTop="13dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="68dp"
+                android:src="@drawable/darahbtn" />
+
+            <ImageButton
+                android:id="@+id/ib_plasma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_jnsdonor"
+                android:layout_marginTop="13dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="228dp"
+                android:src="@drawable/plasmabtn" />
+
+            <TextView
+                android:id="@+id/tv_glgdarah"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="73dp"
+                android:gravity="center"
+                android:layout_below="@+id/ib_darahb"
+                android:text="Golongan Darah"
+                android:textColor="@color/merah"
+                android:textSize="14dp" />
+
+            <ImageButton
+                android:id="@+id/ib_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_glgdarah"
+                android:layout_marginTop="13dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="68dp"
+                android:src="@drawable/gola" />
+
+            <ImageButton
+                android:id="@+id/ib_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_glgdarah"
+                android:layout_marginTop="13dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="138dp"
+                android:src="@drawable/golb" />
+            <ImageButton
+                android:id="@+id/ib_golo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_glgdarah"
+                android:layout_marginTop="13dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="210dp"
+                android:src="@drawable/golo" />
+
+            <ImageButton
+                android:id="@+id/ib_golab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_glgdarah"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:src="@drawable/golab" />
+
+            <ImageButton
+                android:id="@+id/ib_golamin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ib_a"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="70dp"
+                android:src="@drawable/golamin" />
+
+            <ImageButton
+                android:id="@+id/ib_golbimin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ib_a"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="140dp"
+                android:src="@drawable/golbmin" />
+
+            <ImageButton
+                android:id="@+id/ib_golomin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ib_a"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="210dp"
+                android:src="@drawable/golomin" />
+
+            <ImageButton
+                android:id="@+id/ib_golabmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ib_a"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="280dp"
+                android:src="@drawable/golabmin" />
+
+            <TextView
+                android:id="@+id/tv_lokasi"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="73dp"
+                android:gravity="center"
+                android:layout_below="@+id/ib_golabmin"
+                android:text="Lokasi"
+                android:textColor="@color/merah"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/lokasi"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tv_lokasi"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="71dp"
+                android:background="@drawable/garis_button"
+
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_rumahsakit"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="73dp"
+                android:gravity="center"
+                android:layout_below="@+id/lokasi"
+                android:text="Lokasi"
+                android:textColor="@color/merah"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/rumahsakit"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tv_rumahsakit"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="71dp"
+                android:background="@drawable/garis_button"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_deskripsi"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="73dp"
+                android:gravity="center"
+                android:layout_below="@+id/rumahsakit"
+                android:text="Deskripsi"
+                android:textColor="@color/merah"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/deskripsi"
+                android:layout_width="280dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/tv_deskripsi"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="71dp"
+                android:background="@drawable/garis_button"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:layout_width="240dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_below="@id/deskripsi"
+                android:layout_margin="60dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_button" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

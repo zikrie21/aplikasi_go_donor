@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_createdonor">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/ib_back"
+                android:src="@drawable/back"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_find"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Find Donor Request"
+                android:textColor="@color/merah"
+                android:textSize="24dp" />
+
+            <ImageButton
+                android:id="@+id/req_fatimah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_find"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="55dp"
+                android:src="@drawable/reqabfatimah" />
+
+            <ImageButton
+                android:id="@+id/req_roger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/req_fatimah"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="55dp"
+                android:src="@drawable/reqbroger" />
+
+            <ImageButton
+                android:id="@+id/req_madun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/req_roger"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="55dp"
+                android:src="@drawable/reqbmadun" />
+
+            <ImageButton
+                android:id="@+id/req_surti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/req_madun"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="55dp"
+                android:src="@drawable/reqabsurti" />
+            <ImageButton
+                android:id="@+id/req_fatimah2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/req_surti"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="55dp"
+                android:src="@drawable/reqabfatimah" />
+
+            <ImageButton
+                android:id="@+id/req_roger2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/req_fatimah2"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_marginStart="55dp"
+                android:src="@drawable/reqbroger" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</FrameLayout>
